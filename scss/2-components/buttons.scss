@@ -1,0 +1,87 @@
+// .btn-periodic {
+//   font-size: 16px;
+//   font-weight: 200;
+//   letter-spacing: 1px;
+//   padding: 13px 20px 13px;
+//   outline: 0;
+//   border: 1px solid white;
+//   cursor: pointer;
+//   background-color: transparent;
+//   user-select: none;
+//   -webkit-user-select: none;
+//   touch-action: manipulation;
+
+//   float: right;
+//   position: relative;
+//   right: 5%;
+//   color: $description;
+// }
+
+// .btn-periodic::after {
+//   content: "";
+//   background-color: $logo;
+//   width: 100%;
+//   z-index: -1;
+//   position: absolute;
+//   height: 100%;
+//   top: 7px;
+//   left: 7px;
+//   transition: 0.2s;
+// }
+
+// .btn-periodic:hover::after {
+//   top: 0px;
+//   left: 0px;
+//   z-index: 1;
+// }
+
+// @media (min-width: 768px) {
+//   .btn-periodic {
+//     padding: 13px 50px 13px;
+//   }
+// }
+
+.btn {
+  appearance: button;
+  background-color: $logo;
+  background-image: none;
+  border: 1px solid $logo;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0, $logo 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Lato-Black";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  z-index: 1;
+  transition: 225ms;
+}
+
+.btn:hover {
+  box-shadow: $logo 4px 4px 0 0, $logo 4px 4px 0 1px;
+  background: white;
+  color: black;
+}
+
+.btn-periodic {
+  position: absolute;
+  right: 5%;
+}
+
+.mint-btn {
+  position: relative;
+  width: 10%;
+  margin-left: 45%;
+}

@@ -1,0 +1,15 @@
+.social-box {
+  margin-right: 10px;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: $description;
+  padding: 0 10px;
+  transition: 225ms;
+  text-shadow: 1px 1px $logo;
+}
+
+.social-icon:hover {
+  color: $logo;
+}

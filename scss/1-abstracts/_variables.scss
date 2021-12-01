@@ -1,10 +1,80 @@
-$breakpoint-mobile-small-1:320px;
-$breakpoint-mobile-small:360px;
+$breakpoint-mobile-small-1: 320px;
+$breakpoint-mobile-small: 360px;
 $breakpoint-mobile-big: 525px;
-$breakpoint-mobile-big-1:625px;
-$breakpoint-tablet-small:700px;
+$breakpoint-mobile-big-1: 625px;
+$breakpoint-tablet-small: 700px;
 $breakpoint-tablet: 768px;
-$big-screen-1:1000px;
-$big-screen:1220px;
-$big-screen-2:2560px;
-$height-breakpoint-rotate-mobile:500px;
+$big-screen-1: 1000px;
+$big-screen: 1220px;
+$big-screen-2: 2560px;
+$height-breakpoint-rotate-mobile: 500px;
+
+$blue: #9cb5fe;
+$green: #39e27d;
+$orange: #fc9144;
+$pink-light: #fd9dcb;
+$pink-dark: #fa3c6a;
+$blue2: #a070dd;
+$yellow: #fad121;
+$logo: #42277d;
+
+$white: rgb(255, 255, 255);
+$description: rgb(202, 202, 202);
+
+.lightblue-cell {
+  background: #00b6bc;
+}
+
+.pink-cell {
+  background: #fd9dcb;
+}
+
+.darkblue-cell {
+  background: #1968c7;
+}
+
+.purple-cell {
+  background: #a070dd;
+}
+
+.red-cell {
+  background: #fa3c6a;
+}
+
+.yellow-cell {
+  background: #fad121;
+}
+
+.orange-cell {
+  background: #fc9144;
+}
+
+.green-cell {
+  background: #39e27d;
+}
+
+.darkgreen-cell {
+  background: #9cb5fe;
+}
+
+.grey-cell {
+  background: #859998;
+}
+
+.lanthanides {
+  background: #004e75;
+}
+
+.actinides {
+  background: #572e56;
+}
+
+$text-shadow: -2px 2px 3px #040306;
+
+$element-shadow: black 3px 3px, rgba(0, 0, 0, 0.8) 6px 6px,
+  rgba(0, 0, 0, 0.6) 9px 9px, rgba(0, 0, 0, 0.4) 12px 12px,
+  rgba(0, 0, 0, 0.2) 15px 15px;
+
+$element-shadow-hover: hsl(259, 52%, 32%) 3.5px 3.5px,
+  rgba(#42277d, 0.8) 7px 7px, rgba(#42277d, 0.6) 10.5px 10.5px,
+  rgba(#42277d, 0.4) 14px 14px, rgba(#42277d, 0.2) 17.5px 17.5px;

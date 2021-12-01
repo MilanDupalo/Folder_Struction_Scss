@@ -1,0 +1,23 @@
+.logo {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: 225ms;
+  top: 150px; }
+
+.logo-img {
+  width: 300px; }
+
+.footer-logo {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  margin-left: 5%;
+  top: 10px; }
+
+/*# sourceMappingURL=logo.css.map */

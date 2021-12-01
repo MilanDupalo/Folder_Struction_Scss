@@ -1,0 +1,53 @@
+.title-box {
+  position: relative;
+  padding: 25px 0 55px 0;
+  width: 40%;
+  margin-left: 50%;
+}
+
+.title {
+  font-size: 2.2rem;
+  text-align: start;
+  color: $white;
+  font-family: "Lato-Black";
+  text-shadow: $text-shadow;
+}
+
+.description {
+  font-size: 1.3rem;
+  text-align: start;
+  color: $description;
+  margin-top: 10px;
+  font-family: "Lato-Regular";
+  text-shadow: $text-shadow;
+}
+
+// title abow periodical, but just position
+.periodical-title {
+  width: 100%;
+  top: 10px;
+}
+
+.periodical-description {
+  text-align: center;
+}
+
+.color-word {
+  color: $logo;
+}
+
+// about us title and textContent
+
+.about-us-content-title {
+  font-size: 2.2rem;
+  color: $white;
+  font-family: "Lato-Black";
+  text-shadow: $text-shadow;
+}
+
+.about-us-content-description {
+  color: $description;
+  font-family: "Lato-Regular";
+  margin-top: 10px;
+  text-shadow: $text-shadow;
+}
